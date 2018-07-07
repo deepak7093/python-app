@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hey updated with jenkins!!!"
+    return "Hey New build happen with jenkins!!!"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
